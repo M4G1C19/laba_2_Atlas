@@ -1,0 +1,96 @@
+[2026-11-17 00:23:37] Start: __init__
+[2026-11-17 00:23:47] Finish: __init__ | Time: 9.71 s.
+
+[2026-11-17 00:23:47] Start: scrape_schedule
+[2026-11-17 00:23:50] Start: close_cookie_banner
+[2026-11-17 00:24:00] Finish: close_cookie_banner | Time: 10.12 s.
+
+[2026-11-17 00:24:29] Start: close_cookie_banner
+[2026-11-17 00:24:39] Finish: close_cookie_banner | Time: 10.09 s.
+
+[2026-11-17 00:25:10] Start: close_cookie_banner
+[2026-11-17 00:25:20] Finish: close_cookie_banner | Time: 10.10 s.
+
+[2026-11-17 00:25:47] Start: close_cookie_banner
+[2026-11-17 00:25:57] Finish: close_cookie_banner | Time: 10.13 s.
+
+[2026-11-17 00:26:29] Start: close_cookie_banner
+[2026-11-17 00:26:39] Finish: close_cookie_banner | Time: 10.09 s.
+
+[2026-11-17 00:27:01] Finish: scrape_schedule | Time: 194.33 s.
+
+[2026-11-17 00:27:01] Start: __init__
+[2026-11-17 00:27:13] Finish: __init__ | Time: 12.38 s.
+
+[2026-11-17 00:27:13] Start: scrape_schedule
+[2026-11-17 00:27:19] Start: close_cookie_banner
+[2026-11-17 00:27:30] Finish: close_cookie_banner | Time: 10.12 s.
+
+[2026-11-17 00:27:58] Start: close_cookie_banner
+[2026-11-17 00:28:09] Finish: close_cookie_banner | Time: 10.14 s.
+
+[2026-11-17 00:28:39] Start: close_cookie_banner
+[2026-11-17 00:28:49] Finish: close_cookie_banner | Time: 10.10 s.
+
+[2026-11-17 00:29:18] Start: close_cookie_banner
+[2026-11-17 00:29:28] Finish: close_cookie_banner | Time: 10.11 s.
+
+[2026-11-17 00:29:58] Start: close_cookie_banner
+[2026-11-17 00:30:08] Finish: close_cookie_banner | Time: 10.31 s.
+
+[2026-11-17 00:30:34] Finish: scrape_schedule | Time: 200.36 s.
+
+[2026-11-17 00:30:34] Start: __init__
+[2026-11-17 00:30:45] Finish: __init__ | Time: 10.98 s.
+
+[2026-11-17 00:30:45] Start: __del__
+[2026-11-17 00:30:47] Finish: __del__ | Time: 2.58 s.
+
+[2026-11-17 00:30:47] Start: scrape_schedule
+[2026-11-17 00:30:53] Start: close_cookie_banner
+[2026-11-17 00:31:03] Finish: close_cookie_banner | Time: 10.11 s.
+
+[2026-11-17 00:31:41] Start: close_cookie_banner
+[2026-11-17 00:31:51] Finish: close_cookie_banner | Time: 10.10 s.
+
+[2026-11-17 00:32:29] Start: close_cookie_banner
+[2026-11-17 00:32:39] Finish: close_cookie_banner | Time: 10.09 s.
+
+[2026-11-17 00:33:15] Start: close_cookie_banner
+[2026-11-17 00:33:25] Finish: close_cookie_banner | Time: 10.09 s.
+
+[2026-11-17 00:34:01] Start: close_cookie_banner
+[2026-11-17 00:34:11] Finish: close_cookie_banner | Time: 10.14 s.
+
+[2026-11-17 00:34:39] Finish: scrape_schedule | Time: 232.22 s.
+
+[2026-11-17 00:34:39] Start: __init__
+[2026-11-17 00:34:50] Finish: __init__ | Time: 10.21 s.
+
+[2026-11-17 00:34:50] Start: __del__
+[2026-11-17 00:34:52] Finish: __del__ | Time: 2.29 s.
+
+[2026-11-17 00:34:52] Start: scrape_schedule
+[2026-11-17 00:34:56] Start: close_cookie_banner
+[2026-11-17 00:35:06] Finish: close_cookie_banner | Time: 10.11 s.
+
+[2026-11-17 00:35:44] Start: close_cookie_banner
+[2026-11-17 00:35:54] Finish: close_cookie_banner | Time: 10.12 s.
+
+[2026-11-17 00:36:31] Start: close_cookie_banner
+[2026-11-17 00:36:41] Finish: close_cookie_banner | Time: 10.09 s.
+
+[2026-11-17 00:37:16] Start: close_cookie_banner
+[2026-11-17 00:37:26] Finish: close_cookie_banner | Time: 10.10 s.
+
+[2026-11-17 00:38:01] Start: close_cookie_banner
+[2026-11-17 00:38:11] Finish: close_cookie_banner | Time: 10.11 s.
+
+[2026-11-17 00:38:38] Finish: scrape_schedule | Time: 226.21 s.
+
+[2026-11-17 00:38:38] Start: __del__
+[2026-11-17 00:38:41] Finish: __del__ | Time: 2.73 s.
+
+[2026-11-17 00:38:41] Start: __del__
+[2026-11-17 00:38:44] Finish: __del__ | Time: 2.62 s.
+

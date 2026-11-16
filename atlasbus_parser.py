@@ -8,7 +8,7 @@ from selenium.common.exceptions import TimeoutException
 import datetime
 import pandas as pd
 
-LOG_FILENAME = "parser_log.txt"
+LOG_FILENAME = "parsering_log.txt"
 
 def time_logger(func):
     def wrapper(*args, **kwargs):
@@ -58,8 +58,8 @@ class AtlasScraper:
             pass
 
     @time_logger
-    def scrape_schedule(self):
-        start_date = datetime.datetime.now() + datetime.timedelta(days=1)
+    def scrape_schedule(self, start_offset_days=1):
+        start_date = datetime.datetime.now() + datetime.timedelta(days=start_offset_days)
         date_range = pd.date_range(start=start_date, periods=5, freq='D')
         
         for current_date in date_range:
@@ -179,7 +179,7 @@ def process_and_link(forward_data, backward_data, route_name):
     result_df.drop_duplicates(inplace=True)
     result_df.dropna(inplace=True)
     
-    output_file = f'tickets_{route_name}.csv'
+    output_file = f'{route_name}_билеты.csv'
     result_df.to_csv(output_file, index=0, encoding='utf-8-sig')
     print(f"Saved: {output_file} (total: {len(result_df)} rows)")
 
@@ -188,12 +188,12 @@ def main():
     target_cities = ['Гродно', 'Витебск']
     
     for destination in target_cities:
-        route_name = f'Минск-{destination}'
+        route_name = destination
         print(f"PROCESSING ROUTE: {route_name}")
         
         try:
             forward_parser = AtlasScraper('https://atlasbus.by/', 'Минск', destination)
-            forward_data = forward_parser.scrape_schedule()
+            forward_data = forward_parser.scrape_schedule(start_offset_days=1)
         except Exception as e:
             print(f"ОШИБКА при парсинге {route_name}: {e}")
             continue
@@ -201,14 +201,13 @@ def main():
         try:
             backward_route = f'{destination}-Минск'
             backward_parser = AtlasScraper('https://atlasbus.by/', destination, 'Минск')
-            backward_data = backward_parser.scrape_schedule()
+            backward_data = backward_parser.scrape_schedule(start_offset_days=8)
         except Exception as e:
             print(f"ОШИБКА при парсинге {backward_route}: {e}")
             continue
         
         process_and_link(forward_data, backward_data, route_name)
     
-
     print("ALL DONE!")
 
 
