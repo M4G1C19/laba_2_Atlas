@@ -127,7 +127,7 @@ class AtlasScraper:
 
 
 def process_and_link(forward_data, backward_data, route_name):
-    print(f"\n--- Processing and linking: {route_name} ---")
+    print(f"---Processing and linking: {route_name} /n ---")
     
     def align_lists(data_dict):
         max_len = max(len(v) for v in data_dict.values()) if data_dict else 0
